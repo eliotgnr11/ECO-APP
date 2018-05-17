@@ -63,13 +63,10 @@
         android:id="@+id/imageView2"
         android:layout_width="112dp"
         android:layout_height="100dp"
-        android:layout_marginBottom="8dp"
         android:layout_marginStart="48dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText14"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/ic_menu_gallery" />
 
     <android.support.design.widget.FloatingActionButton
@@ -92,9 +89,12 @@
         android:layout_marginBottom="44dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="Publicar"
         android:text="Publicar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.827"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 </android.support.constraint.ConstraintLayout>

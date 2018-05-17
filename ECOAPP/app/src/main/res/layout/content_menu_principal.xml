@@ -9,14 +9,14 @@
     tools:showIn="@layout/app_bar_menu_principal">
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/btnsocial"
         android:layout_width="359dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:onClick="Social"
         android:scaleType="centerCrop"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton3"
+        app:layout_constraintBottom_toTopOf="@+id/btntendencias"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -24,49 +24,51 @@
         app:srcCompat="@drawable/socialboton" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/btntips"
         android:layout_width="158dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
+        android:onClick="Tips"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/btnsocial"
         app:srcCompat="@drawable/tipsboton" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/btntendencias"
         android:layout_width="193dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton5"
+        android:onClick="Tendencias"
+        app:layout_constraintBottom_toTopOf="@+id/btncompras"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:layout_constraintStart_toEndOf="@+id/btntips"
         app:srcCompat="@drawable/tendenciasboton" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/btnnoticias"
         android:layout_width="179dp"
         android:layout_height="161dp"
         android:layout_marginTop="8dp"
+        android:onClick="Noticias"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintTop_toBottomOf="@+id/btntips"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/noticiasboton" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/btncompras"
         android:layout_width="175dp"
         android:layout_height="165dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
+        android:onClick="Compras"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.933"
-        app:layout_constraintStart_toEndOf="@+id/imageButton4"
+        app:layout_constraintStart_toEndOf="@+id/btnnoticias"
         app:srcCompat="@drawable/comprasboton" />
 </android.support.constraint.ConstraintLayout>

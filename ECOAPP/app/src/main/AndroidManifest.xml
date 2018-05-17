@@ -25,7 +25,9 @@
         <activity android:name=".Perfil" />
         <activity android:name=".Agregar" />
         <activity android:name=".Muro" />
-        <activity android:name=".PublicacionOpen"></activity>
+        <activity android:name=".PublicacionOpen" />
+        <activity android:name=".AcercaDe" />
+        <activity android:name=".Ayuda"></activity>
     </application>
 
 </manifest>
