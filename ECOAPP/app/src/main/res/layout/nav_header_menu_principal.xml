@@ -12,12 +12,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="21sp"
-        android:text="Opciones" />
-
+        android:text="Opciones"
+        android:textSize="21sp" />
 </LinearLayout>

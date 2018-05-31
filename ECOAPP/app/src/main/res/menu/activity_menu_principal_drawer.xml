@@ -12,7 +12,7 @@
             android:title="Acerca De" />
     </group>
 
-    <item android:title="____________________">
+    <item>
         <menu>
             <item
                 android:id="@+id/nav_perfil"
